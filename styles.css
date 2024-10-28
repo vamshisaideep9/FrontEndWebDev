@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+}
+
+
+
+h1 {
+    background: blue;
+}
+
+.blue {
+    color: green;
+    background: black;
+    display: inline;
+}
+
+
+body {
+    background: rgb(255, 198, 192);
+}
+
+
+.red {
+    color: red;
+    background: blue;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+#hello {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 5px;
+}
+
+.span {
+    background: white;
+    display: block;
+}
+
+
+.newlayout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.first {
+    flex-shrink: 0;
+}
+
+.newlayout div {
+    background: red;
+    width: 200px;
+    flex-basis: 200px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 10px;
+} 
+
+
+#parent {
+    display: flex;
+    background: red;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+
+
+#child {
+    background: yellow;
+    width: 200px;
+    height: 200px;
+}
